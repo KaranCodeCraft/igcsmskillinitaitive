@@ -16,7 +16,7 @@ export default function ExportDataSection() {
       <div className="container mx-auto text-center px-4">
         {/* Title */}
         <h2 className="text-2xl md:text-3xl font-bold mb-6">
-          India : Merchandise Export in USD billion
+          भारत में कौशल विकास पहल (Skill India Mission)
         </h2>
 
         {/* Cards */}
@@ -25,27 +25,27 @@ export default function ExportDataSection() {
           <div className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-4">
             <Package className="w-12 h-12 mb-2" />
             <p className="text-3xl font-bold">
-              <CountUp start={0} end={38.01} duration={3} decimals={2} />B
+              <CountUp start={0} end={150} duration={3} decimals={0} />M
             </p>
-            <p className="text-md mt-4">December 2024</p>
+            <p className="text-md mt-4">प्रशिक्षित युवा (2024 तक)</p>
           </div>
 
           {/* Card 2 */}
           <div className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-4">
             <Package className="w-12 h-12 mb-2" />
             <p className="text-3xl font-bold">
-              <CountUp start={0} end={321.71} duration={3} decimals={2} />B
+              <CountUp start={0} end={3000} duration={3} decimals={0} />+
             </p>
-            <p className="text-md mt-4">April 2024 - December 2024</p>
+            <p className="text-md mt-4">कौशल विकास केंद्</p>
           </div>
 
           {/* Card 3 */}
           <div className="flex flex-col items-center bg-white bg-opacity-10 rounded-lg p-4">
             <Package className="w-12 h-12 mb-2" />
             <p className="text-3xl font-bold">
-              <CountUp start={0} end={437.06} duration={3} decimals={2} />B
+              <CountUp start={0} end={500} duration={3} decimals={0} />+
             </p>
-            <p className="text-md mt-4">April 2023 - March 2024</p>
+            <p className="text-md mt-4">प्रधानमंत्री कौशल विकास योजना केंद्र</p>
           </div>
         </div>
       </div>

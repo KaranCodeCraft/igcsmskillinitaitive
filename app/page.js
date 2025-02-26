@@ -10,15 +10,16 @@ import CampaignMarquee from "@/components/Campaign";
 import Footer from "@/components/Footer";
 
 const newsItems = [
-  "Union Minister of Defence at 16th Foundation Day of IIT Mandi",
-  "Textile, Tourism, Technology: PM Modi's mantra for India's development",
-  "Railways will achieve 100% electrification in FY26: Ashwini Vaishnaw",
-  "India's GDP growth projected at 7.3% for FY25"
+  "The Union Cabinet approved the extension of the Skill India Programme (SIP) till 2026. The program will receive an outlay of ₹8,800 crore from 2022-23 to 2025-26.",
+  "The SIDH offers online courses, basic and advanced training, and a toolkit incentive",
+  "The PM-NAPS helps people transition from education to work by providing industry-specific skills",
+  "The PMKVY 4.0 is a key component of the Skill India Programme",
 ];
 
 const images = [
-  "https://www.ibef.org/uploads/banner/1726575335_a1cbfed1f9402414cd60.png",
-  "https://www.ibef.org/uploads/banner/1740120964_0cd54e7aa5a831e65303.png",
+  "https://ardorcomm-media.com/wp-content/uploads/2023/09/News-on-Edu-15th-Sept-2023.webp",
+  "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201609/skill-development-school-647_091216105251.jpg?VersionId=fLcVcx0O2.EkBA_GB8NJ8z9u44jXWYmD&size=690:388",
+  "https://i.ytimg.com/vi/qjAXFg56PRw/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDQjo3wfCuLgSe8jNiNlUxCyLocFQ",
 ];
 
 const logos = [
@@ -84,7 +85,7 @@ export default function Banner() {
               <img
                 src={images[currentIndex]}
                 alt="Banner"
-                className="w-full h-full object-cover rounded-md"
+                className="w-full h-full object-contain rounded-md"
               />
             </motion.div>
             {/* Navigation Buttons */}
@@ -103,13 +104,13 @@ export default function Banner() {
           </div>
         </div>
       </section>
-      <div className="bg-green-600 text-white p-2 px-20">
+      <div className="bg-green-600 text-white p-2 px-4 md:px-20">
         <Marquee>
-          It has been brought to our notice that certain members of the public
-          have received employment offer from IBEF that requires payment of cash
-          deposit into specified bank accounts. Note that these are fake job
-          offers. IGCSM  does not entertain payment of any kind from candidates
-          for employment.
+          The Union Cabinet on Friday approved continuation and restructuring of the ‘Skill India Programme (SIP)’ till 2026 with an outlay of Rs 8,800 crore from the period of 2022-23 to 2025-26.
+ 
+Three components — Pradhan Mantri Kaushal Vikas Yojana 4.0 (PMKVY 4.0), Pradhan Mantri National Apprenticeship Promotion Scheme (PM-NAPS) and the Jan Shikshan Sansthan (JSS) scheme — are now combined under the composite central sector scheme, the SIP. 
+ 
+“These initiatives aim to provide structured skill development, on-the-job training (OJT), and community-based learning, ensuring that both urban and rural populations, including marginalised communities, have access to high-quality vocational education,” said the Union Cabinet in a statement.  
         </Marquee>
       </div>
       <Count />

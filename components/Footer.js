@@ -6,10 +6,20 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-10 flex flex-col md:flex-row justify-between">
         {/* Left Side - Logo & Address */}
         <div className="space-y-4">
-          <img src="/logo.png" alt="IGCSM LOGO" className="h-12" />
+          <div className="flex items-center space-x-2">
+            <span className="text-2xl font-bold tracking-wide">
+              <span className="text-green-500">I</span>
+              <span className="text-white">S</span>
+              <span className="text-orange-500">D</span>
+            </span>
+            <span className="text-xs text-gray-300">
+              IGCSM Skill Development Pvt. Ltd.
+            </span>
+          </div>
           <p className="text-gray-300">
-            Address: 16th Floor,  <br />
-            Okhla<br />
+            Address: 16th Floor, <br />
+            Okhla
+            <br />
             New Delhi - 110001 INDIA
           </p>
           <p className="text-gray-300">Tel: +91 11 77227722</p>
@@ -31,7 +41,6 @@ const Footer = () => {
               <li>Brand India</li>
               <li>Indian Economy</li>
               <li>Industry</li>
-              <li>Exports</li>
               <li>States/UT</li>
             </ul>
           </div>
@@ -39,7 +48,7 @@ const Footer = () => {
             <h4 className="font-semibold mb-2">Research</h4>
             <ul className="space-y-2 text-gray-300">
               <li>Media & Events</li>
-              <li>About IBEF</li>
+              <li>About Us</li>
               <li>Contact us</li>
               <li>Sitemap</li>
             </ul>
@@ -50,8 +59,6 @@ const Footer = () => {
               <li>Privacy Policy</li>
               <li>Disclaimer</li>
               <li>Terms of Use</li>
-              <li>National Portal - MyGov</li>
-              <li>Citizens’ Charters</li>
             </ul>
           </div>
         </div>
